@@ -1,4 +1,4 @@
-import { View, Image, TouchableOpacity } from "react-native";
+import { View, Image, TouchableOpacity, StyleSheet } from "react-native";
 import { Feather } from "@expo/vector-icons";
 import Logo from "../../assets/logo.png"
 
@@ -24,3 +24,14 @@ export default function Header(){
       </View>
     )
 }
+
+const styles = StyleSheet.create({
+  container: {
+          flexDirection: "row",
+          justifyContent: "space-between",
+          width: "100%",
+          alignItems: "center",
+  },
+  icons: {flexDirection:"row"
+  },
+});
