@@ -1,19 +1,21 @@
-import { Text, View, Image, StyleSheet, TouchableOpacity, ScrollView } from "react-native";
-import Header from "./src/components/Header";
-import Storys from "./src/components/Storys";
+import { View } from "react-native";
+import arara_vermelha from "./src/assets/arara_vermelha.jpg";
+import InfoProfile from './src/components/InfoProfile';
 
 export default function App() {
   return (
     <View
       style={{
-        alignItems: "center",
-        flex: 1,
         marginVertical: 32,
         marginHorizontal: 16,
       }}
     >
-      <Header />
-      <Storys />
+      <InfoProfile
+      image={arara_vermelha}
+      publi={250}
+      followers={500}
+      following={100}
+      />
     </View>
   );
 }
