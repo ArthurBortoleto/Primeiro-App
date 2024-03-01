@@ -1,6 +1,7 @@
 import { View } from "react-native";
 import arara_vermelha from "./src/assets/arara_vermelha.jpg";
 import InfoProfile from './src/components/InfoProfile';
+import MyPost from "./src/components/MyPost";
 
 export default function App() {
   return (
@@ -16,6 +17,8 @@ export default function App() {
       followers={500}
       following={100}
       />
+
+      <MyPost />
     </View>
   );
 }
