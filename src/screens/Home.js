@@ -1,19 +1,18 @@
 import { View } from "react-native";
-import Header from "./src/components/Header";
-import Storys from "./src/components/Story";
+import Header from "../components/Header";
+import Stories from "../components/Stories";
 
-export default function App() {
+export default function Home() {
   return (
     <View
       style={{
-        alignItems: "center",
         flex: 1,
         marginVertical: 32,
         marginHorizontal: 16,
       }}
     >
       <Header />
-      <Storys />
+      <Stories />
     </View>
   );
 }
