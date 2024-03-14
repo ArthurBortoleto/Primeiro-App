@@ -1,4 +1,4 @@
-import { View } from "react-native";
+import { View, Image, StyleSheet, TouchableOpacity } from "react-native";
 import arara_vermelha from "../assets/arara_vermelha.jpg";
 import InfoProfile from '../components/InfoProfile';
 import MyPosts from "../components/MyPosts";
